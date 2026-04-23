@@ -1,0 +1,12 @@
+
+        .app-container{
+            display: flex;
+            flex-direction: column; /*stack the element vertically */
+            
+            max-width: 600px;
+            height: 100vh ;
+            margin: auto auto; /*center the container */
+        }
+        
+        
+        

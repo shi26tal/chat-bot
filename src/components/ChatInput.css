@@ -1,0 +1,31 @@
+.send-btn{
+            background-color: rgb(25,135,84);
+            color: white;
+            padding: 12px 20px; /*veritical space (|) height , horizontal space (-) width : space inside button */
+            margin-left: 10px; /*space outside button or element */
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .chat-input{
+            /* flexbox = create a flexible layout 
+            to use flexbox:
+            1. create container around the element
+            2. add display: flex to the container
+            3. use flex properties to control the layout of the element inside the container
+            */
+            padding: 12px 20px; /*veritical space (|) height , horizontal space (-) width : space inside button */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 15px;
+            flex-grow: 1; /*take up all the available space in the container */
+        }
+        .chat-input-container{
+            display: flex; 
+            margin-bottom: 50px;  
+        }
+        .loading{
+            width: 40px;
+            margin: -15px;
+        }

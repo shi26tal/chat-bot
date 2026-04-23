@@ -1,0 +1,14 @@
+.chat-messages-container{
+            flex-grow: 1;
+            margin-top: 20px;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+.chat-messages-container-text{
+            flex-grow: 1;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(150,150,150);
+        }
